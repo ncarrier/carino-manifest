@@ -4,6 +4,11 @@
   <default remote="local" revision="refs/heads/master" sync-j="4" />
 
   <project name="config" path="config" />
+  <project name="tools" path="tools">
+    <copyfile src="autoconnect.sh" dest="autoconnect.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
+    <copyfile src="gen_sd.sh" dest="gen_sd.sh" />
+  </project>
 
   <project name="doc" path="doc">
     <copyfile src="README.carino" dest="README" />
