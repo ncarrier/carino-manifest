@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="local" fetch="/home/nicolas/carino" />
-  <default revision="refs/heads/master" remote="local" sync-j="4" />
+  <default revision="refs/heads/master" sync-j="4" />
   <project name="config" path="config" />
 </manifest>
