@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="local" fetch="/home/nicolas/carino" />
+  <remote name="local" fetch="ssh://nicolas@localhost:/home/nicolas/carino" />
   <default remote="local" revision="refs/heads/master" sync-j="4" />
   <project name="config" path="config" />
 </manifest>
