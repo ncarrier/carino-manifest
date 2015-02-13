@@ -2,5 +2,11 @@
 <manifest>
   <remote name="local" fetch="ssh://nicolas@localhost/home/nicolas/carino" />
   <default remote="local" revision="refs/heads/master" sync-j="4" />
+
   <project name="config" path="config" />
+
+  <project name="doc" path="doc">
+    <copyfile src="README.carino" dest="README" />
+  </project>
+
 </manifest>
