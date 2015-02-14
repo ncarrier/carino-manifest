@@ -3,7 +3,8 @@
   <!-- please respect alphabetical ordering in subsections -->
 
   <remote name="local" fetch="ssh://nicolas@localhost/home/nicolas/carino" />
-  <default remote="local" revision="master" sync-j="4" />
+  <remote name="pi" fetch="ssh://pi@pi/var/git/carino/" />
+  <default remote="pi" revision="master" sync-j="4" />
 
   <!-- carino build system -->
   <project name="build_scripts" path="build_scripts" />
