@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- please respect alphabetical ordering in subsections -->
+
   <remote name="local" fetch="ssh://nicolas@localhost/home/nicolas/carino" />
   <default remote="local" revision="refs/heads/master" sync-j="4" />
 
+  <!-- carino build system -->
+  <project name="build_scripts" path="build_scripts" />
   <project name="config" path="config" />
   <project name="tools" path="tools">
     <copyfile src="autoconnect.sh" dest="autoconnect.sh" />
@@ -10,8 +14,22 @@
     <copyfile src="gen_sd.sh" dest="gen_sd.sh" />
   </project>
 
+  <!-- other carino custom resources -->
   <project name="doc" path="doc">
     <copyfile src="README.carino" dest="README" />
   </project>
+  <project name="models" path="models" />
+
+  <!-- content of the packages/ sub-directory -->
+  <!-- third-party code projects -->
+  <project name="archives" path="packages/archives" />
+  <project name="linux" path="packages/linux" />
+  <project name="u-boot" path="packages/u-boot" />
+  <project name="yavta" path="packages/yavta" />
+  <!-- carino custom code projects -->
+  <project name="client" path="packages/client" />
+  <project name="libci" path="packages/libci" />
+  <project name="tests" path="packages/tests" />
+  <project name="car" path="packages/car" />
 
 </manifest>
