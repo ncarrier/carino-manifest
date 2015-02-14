@@ -22,14 +22,14 @@
 
   <!-- content of the packages/ sub-directory -->
   <!-- third-party code projects -->
-  <project name="archives" path="packages/archives" />
-  <project name="linux" path="packages/linux" />
-  <project name="u-boot" path="packages/u-boot" />
-  <project name="yavta" path="packages/yavta" />
+  <project name="packages/archives" path="packages/archives" />
+  <project name="packages/linux" path="packages/linux" />
+  <project name="packages/u-boot" path="packages/u-boot" />
+  <project name="packages/yavta" path="packages/yavta" />
   <!-- carino custom code projects -->
-  <project name="client" path="packages/client" />
-  <project name="libci" path="packages/libci" />
-  <project name="tests" path="packages/tests" />
-  <project name="car" path="packages/car" />
+  <project name="packages/client" path="packages/client" />
+  <project name="packages/libci" path="packages/libci" />
+  <project name="packages/tests" path="packages/tests" />
+  <project name="packages/car" path="packages/car" />
 
 </manifest>
