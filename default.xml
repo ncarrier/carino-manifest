@@ -23,8 +23,8 @@
   <!-- content of the packages/ sub-directory -->
   <!-- third-party code projects -->
   <project name="packages/archives" path="packages/archives" />
-  <project name="packages/linux" path="packages/linux" />
-  <project name="packages/u-boot" path="packages/u-boot" />
+  <project name="packages/linux" revision="pcduino-functional-2" path="packages/linux" />
+  <project name="packages/u-boot" revision="55792e77802cc1ad94d81b61533d20e43ae4172b" path="packages/u-boot" />
   <project name="packages/yavta" path="packages/yavta" />
   <!-- carino custom code projects -->
   <project name="packages/client" path="packages/client" />
