@@ -2,35 +2,36 @@
 <manifest>
   <!-- please respect alphabetical ordering in subsections -->
 
+  <remote name="github" fetch="git@github.com:ncarrier" />
   <remote name="local" fetch="ssh://nicolas@localhost/home/nicolas/carino" />
   <remote name="pi" fetch="ssh://pi@pi/var/git/carino/" />
-  <default remote="pi" revision="master" sync-j="4" />
+  <default remote="github" revision="master" sync-j="4" />
 
   <!-- carino build system -->
-  <project name="build_scripts" path="build_scripts" />
-  <project name="config" path="config" />
-  <project name="tools" path="tools">
+  <project name="carino-build_scripts" path="build_scripts" />
+  <project name="carino-config" path="config" />
+  <project name="carino-tools" path="tools">
     <copyfile src="autoconnect.sh" dest="autoconnect.sh" />
     <copyfile src="build.sh" dest="build.sh" />
     <copyfile src="gen_sd.sh" dest="gen_sd.sh" />
   </project>
 
   <!-- other carino custom resources -->
-  <project name="doc" path="doc">
+  <project name="carino-doc" path="doc">
     <copyfile src="README.carino" dest="README" />
   </project>
-  <project name="models" path="models" />
+  <project name="carino-models" path="models" />
 
   <!-- content of the packages/ sub-directory -->
   <!-- third-party code projects -->
-  <project name="packages/archives" path="packages/archives" />
-  <project name="packages/linux" revision="refs/tags/pcduino-functional-2" path="packages/linux" />
-  <project name="packages/u-boot" revision="55792e77802cc1ad94d81b61533d20e43ae4172b" path="packages/u-boot" />
-  <project name="packages/yavta" path="packages/yavta" />
+  <project name="carino-packages/archives" path="packages/archives" />
+  <project name="carino-packages/linux" revision="refs/tags/pcduino-functional-2" path="packages/linux" />
+  <project name="carino-packages/u-boot" revision="55792e77802cc1ad94d81b61533d20e43ae4172b" path="packages/u-boot" />
+  <project name="carino-packages/yavta" path="packages/yavta" />
   <!-- carino custom code projects -->
-  <project name="packages/client" path="packages/client" />
-  <project name="packages/libci" path="packages/libci" />
-  <project name="packages/tests" path="packages/tests" />
-  <project name="packages/car" path="packages/car" />
+  <project name="carino-packages/client" path="packages/client" />
+  <project name="carino-packages/libci" path="packages/libci" />
+  <project name="carino-packages/tests" path="packages/tests" />
+  <project name="carino-packages/car" path="packages/car" />
 
 </manifest>
