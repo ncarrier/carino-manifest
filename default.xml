@@ -24,6 +24,7 @@
 
   <!-- content of the packages/ sub-directory -->
   <!-- third-party code projects -->
+  <project name="carino-packages-adbd" path="packages/adbd" />
   <project name="carino-packages-archives" path="packages/archives" />
   <project name="carino-packages-linux"
     revision="refs/tags/pcduino-functional-2"
