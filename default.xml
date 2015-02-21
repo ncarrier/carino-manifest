@@ -2,7 +2,7 @@
 <manifest>
   <!-- please respect alphabetical ordering in subsections -->
 
-  <remote name="github" fetch="git@github.com:ncarrier" />
+  <remote name="github" fetch="https://github.com/ncarrier/" />
   <remote name="local" fetch="ssh://nicolas@localhost/home/nicolas/carino" />
   <remote name="pi" fetch="ssh://pi@pi/var/git/carino/" />
   <default remote="github" revision="master" sync-j="4" />
