@@ -34,8 +34,9 @@
   <project name="carino-packages-yavta" path="packages/yavta" />
   <!-- carino custom code projects -->
   <project name="carino-packages-client" path="packages/client" />
+  <project name="carino-packages-car" path="packages/car" />
+  <project name="carino-packages-libarduino" path="packages/libarduino" />
   <project name="carino-packages-libci" path="packages/libci" />
   <project name="carino-packages-tests" path="packages/tests" />
-  <project name="carino-packages-car" path="packages/car" />
 
 </manifest>
