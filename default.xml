@@ -27,7 +27,7 @@
   <project name="carino-packages-archives" path="packages/archives" />
   <project name="carino-packages-linux"
     revision="refs/tags/pcduino-functional-2"
-    path="packages/linux"/>
+    path="packages/linux" clone-depth="1"/>
   <project name="carino-packages-u-boot"
     revision="55792e77802cc1ad94d81b61533d20e43ae4172b"
     path="packages/u-boot" />
