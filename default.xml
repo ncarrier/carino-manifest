@@ -18,7 +18,7 @@
 
   <!-- other carino custom resources -->
   <project name="carino-doc" path="doc">
-    <copyfile src="README.carino" dest="README" />
+    <copyfile src="README.md" dest="README.md" />
   </project>
   <project name="carino-models" path="models" />
 
