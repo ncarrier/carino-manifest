@@ -21,6 +21,7 @@
     <copyfile src="README.md" dest="README.md" />
   </project>
   <project name="carino-models" path="models" />
+  <project name="carino-schematics" path="schematics" />
 
   <!-- content of the packages/ sub-directory -->
   <!-- third-party code projects -->
