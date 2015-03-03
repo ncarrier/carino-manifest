@@ -41,4 +41,7 @@
   <project name="carino-packages-libci" path="packages/libci" />
   <project name="carino-packages-tests" path="packages/tests" />
 
+  <!-- remote control clients -->
+  <project name="carino-clients-android-CarinoSteeringWheel" path="clients/android/CarinoSteeringWheel" />
+
 </manifest>
