@@ -19,7 +19,7 @@ retrieve a particular version for a vehicule, please checkout the
 
     This file is part of the Carino project documentation.
     Copyright (C) 2015
-      Nicolas CARRIER
+      Nicolas CARRIER <carrier dot nicolas0 at gmail dot com>
     See the file doc/README.md for copying conditions
 
 [aosp-repo]: https://source.android.com/source/downloading.html#installing-repo
