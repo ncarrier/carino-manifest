@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com/ncarrier/" name="github-rw"/>
+  <remote fetch="http://github.com/ncarrier/" name="origin"/>
+  <remote fetch="ssh://pi@pi/var/git/carino/" name="pi"/>
+  
+  <default remote="origin" revision="master" sync-j="4"/>
+  
+  <project name="aosp-platform-system-core" path="packages/adbd_core" revision="459e5b6bd1b63706d03f892c146138bac0963ec6" upstream="master"/>
+  <project name="aosp-platform-system-extras" path="packages/adbd_extras" revision="ae48cd80a5d656714694f3b6b4f132603ce36284" upstream="master"/>
+  <project name="carino-build_scripts" path="build_scripts" revision="4cecb8b676a8dad89a19aae1d16472d0589921d4" upstream="master"/>
+  <project name="carino-clients-android-CarinoSteeringWheel" path="clients/android/CarinoSteeringWheel" revision="b8d6bd0d9444b3a315ea13e70504e1c5993c91b1" upstream="master"/>
+  <project name="carino-config" path="config" revision="c98846e0caa646f166e50759bcc196e95ebf1dcf" upstream="master"/>
+  <project name="carino-doc" path="doc" revision="5e6c60332b736c6000c3fb16a6ff7b3e41094127" upstream="master">
+    <copyfile dest="README.md" src="README.md"/>
+  </project>
+  <project name="carino-models" path="models" revision="af2403ad1792f5dc67e06954e231a75ef83ecf20" upstream="master"/>
+  <project name="carino-packages-adbd" path="packages/adbd" revision="3e308c4f86858d89f0982e7dd73dae7f17358e0e" upstream="master"/>
+  <project name="carino-packages-archives" path="packages/archives" revision="04f8e17c581a1d68f5c2c5c287f82cbaee7ea6bc" upstream="master"/>
+  <project name="carino-packages-car" path="packages/car" revision="f23c988c22e74c50b37e2ff086ea22a9152ff854" upstream="master"/>
+  <project name="carino-packages-libarduino" path="packages/libarduino" revision="0be8f70abf8083ffd27b5ea723aa8ecf1df29105" upstream="master"/>
+  <project name="carino-packages-libci" path="packages/libci" revision="22dbc6c2dc074ed1fb1da5959b74ec72e8250d28" upstream="master"/>
+  <project name="carino-packages-linux" path="packages/linux" revision="ca735dafe21dc5b385cc8bc67ed0033a2e56b5f1" upstream="refs/tags/pcduino-functional-2"/>
+  <project name="carino-packages-tests" path="packages/tests" revision="91f6fda30e2e231478fbd9f98d1ef190337742b4" upstream="master"/>
+  <project name="carino-packages-u-boot" path="packages/u-boot" revision="55792e77802cc1ad94d81b61533d20e43ae4172b"/>
+  <project name="carino-packages-yavta" path="packages/yavta" revision="fe279d823dc253a95002a0a73d9d791e372e156b" upstream="master"/>
+  <project name="carino-schematics" path="schematics" revision="337dd50ffbff70a51d73232300f232cef648ebf6" upstream="master"/>
+  <project name="carino-tools" path="tools" revision="21c9ece8ef3de12941d7ee461351fb7163066d16" upstream="master">
+    <copyfile dest="autoconnect.sh" src="autoconnect.sh"/>
+    <copyfile dest="build.sh" src="build.sh"/>
+    <copyfile dest="gen_sd.sh" src="gen_sd.sh"/>
+  </project>
+</manifest>
