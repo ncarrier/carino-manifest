@@ -36,14 +36,13 @@
     revision="55792e77802cc1ad94d81b61533d20e43ae4172b"
     path="packages/u-boot" />
   <project name="carino-packages-yavta" path="packages/yavta" />
+
   <!-- carino custom code projects -->
+  <project name="carino-packages-android_stew" path="packages/android_stew" />
   <project name="carino-packages-car" path="packages/car" />
   <project name="carino-packages-libarduino" path="packages/libarduino" />
   <project name="carino-packages-libci" path="packages/libci" />
   <project name="carino-packages-tests" path="packages/tests" />
   <project name="carino-packages-web_stew" path="packages/web_stew" />
-
-  <!-- remote control clients -->
-  <project name="carino-clients-android-CarinoSteeringWheel" path="clients/android/CarinoSteeringWheel" />
 
 </manifest>
