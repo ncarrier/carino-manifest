@@ -41,6 +41,7 @@
   <project name="carino-packages-libarduino" path="packages/libarduino" />
   <project name="carino-packages-libci" path="packages/libci" />
   <project name="carino-packages-tests" path="packages/tests" />
+  <project name="carino-packages-web_stew" path="packages/web_stew" />
 
   <!-- remote control clients -->
   <project name="carino-clients-android-CarinoSteeringWheel" path="clients/android/CarinoSteeringWheel" />
