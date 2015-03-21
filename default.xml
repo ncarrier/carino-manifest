@@ -35,6 +35,7 @@
   <project name="carino-packages-u-boot"
     revision="55792e77802cc1ad94d81b61533d20e43ae4172b"
     path="packages/u-boot" />
+  <project name="carino-packages-websockify" path="packages/websockify" />
   <project name="carino-packages-yavta" path="packages/yavta" />
 
   <!-- carino custom code projects -->
