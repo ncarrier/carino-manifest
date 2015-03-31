@@ -2,6 +2,8 @@ language: c
 compiler:
   - gcc
 before_script:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq colormake ccache
   - git config --global user.email "carino@travis.org"
   - git config --global user.name "Carino build on Travis"
   - git config --global color.ui true
