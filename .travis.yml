@@ -15,5 +15,5 @@ before_script:
   - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
   - ./bin/repo sync
   - export CARINO_VEHICLE=obstination_pc
-script: ./tools/build.sh
+script: V=1 ./tools/build.sh
 
