@@ -7,8 +7,8 @@ before_script:
   - mkdir bin
   - curl https://storage.googleapis.com/git-repo-downloads/repo > bin/repo
   - chmod a+x bin/repo
-  - ./repo init -u https://github.com/ncarrier/carino-manifest
-  - ./repo sync
+  - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
+  - ./bin/repo sync
   - export CARINO_VEHICLE=obstination_pc
 script: ./tools/build.sh
 
