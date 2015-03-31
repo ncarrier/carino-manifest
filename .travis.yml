@@ -2,14 +2,13 @@ language: c
 compiler:
   - gcc
 before_script:
-  - mkdir bin
-  - export PATH=bin:$PATH
-  - curl https://storage.googleapis.com/git-repo-downloads/repo > bin/repo
-  - chmod a+x bin/repo
   - mkdir carino
   - cd carino
-  - repo init -u https://github.com/ncarrier/carino-manifest
-  - repo sync
+  - mkdir bin
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > bin/repo
+  - chmod a+x bin/repo
+  - ./repo init -u https://github.com/ncarrier/carino-manifest
+  - ./repo sync
   - export CARINO_VEHICLE=obstination_pc
 script: ./tools/build.sh
 
