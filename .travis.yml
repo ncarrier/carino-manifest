@@ -4,13 +4,14 @@ compiler:
 before_script:
   - git config --global user.email "carino@travis.org"
   - git config --global user.name "Carino build on Travis"
+  - git config --global color.ui true
   - mkdir carino
   - cd carino
   - mkdir bin
   - curl https://storage.googleapis.com/git-repo-downloads/repo > bin/repo
   - chmod a+x bin/repo
   - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
-  - yes | ./bin/repo sync
+  - ./bin/repo sync
   - export CARINO_VEHICLE=obstination_pc
 script: ./tools/build.sh
 
