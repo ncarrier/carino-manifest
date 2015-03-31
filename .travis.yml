@@ -2,6 +2,8 @@ language: c
 compiler:
   - gcc
 before_script:
+  - git config --global user.email "carino@travis.org"
+  - git config --global user.name "Carino build on Travis"
   - mkdir carino
   - cd carino
   - mkdir bin
