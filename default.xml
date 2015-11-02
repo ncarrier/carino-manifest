@@ -29,7 +29,7 @@
   <!-- third-party code projects -->
   <project name="aosp-platform-system-core" path="packages/adbd_core" />
   <project name="aosp-platform-system-extras" path="packages/adbd_extras" />
-  <project name="carino-packages-adbd" path="packages/adbd" />
+  <project name="carino-packages-adbd" path="packages/adbd_main" />
   <project name="carino-packages-archives" path="packages/archives" />
   <project name="carino-packages-linux"
     revision="refs/tags/pcduino-functional-2"
