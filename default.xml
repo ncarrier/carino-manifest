@@ -9,7 +9,7 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <!-- carino build system -->
-  <project name="alchemy" path="alchemy" remote="github-parrot"/>
+  <project name="alchemy" path="alchemy"/>
   <project name="carino-build_scripts" path="build_scripts" />
   <project name="carino-config" path="config" />
   <project name="carino-tools" path="tools">
