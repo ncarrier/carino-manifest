@@ -12,6 +12,7 @@
   <project name="alchemy" path="alchemy" revision="dev-missing-libc-files-fix-branch"/>
   <project name="carino-build_scripts" path="build_scripts" />
   <project name="carino-config" path="config" />
+  <project name="carino-products" path="products/carino" />
   <project name="carino-tools" path="tools">
     <copyfile src="autoconnect.sh" dest="autoconnect.sh" />
     <copyfile src="build.sh" dest="build.sh" />
