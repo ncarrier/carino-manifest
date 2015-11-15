@@ -46,6 +46,7 @@
   <project name="carino-packages-car" path="packages/car" />
   <project name="carino-packages-libarduino" path="packages/libarduino" />
   <project name="carino-packages-libci" path="packages/libci" />
+  <project name="carino-packages-scripts" path="packages/scripts" />
   <project name="carino-packages-tests" path="packages/tests" />
   <project name="carino-packages-web_stew" path="packages/web_stew" />
 
