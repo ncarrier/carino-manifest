@@ -9,7 +9,7 @@
   <default remote="origin" revision="master" sync-j="4" />
 
   <!-- carino build system -->
-  <project name="alchemy" path="alchemy" revision="dev-missing-libc-files-fix-branch"/>
+  <project name="alchemy" path="alchemy"/>
   <project name="carino-build_scripts" path="build_scripts" />
   <project name="carino-config" path="config" />
   <project name="carino-products" path="products/carino" />
