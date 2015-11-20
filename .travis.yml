@@ -1,9 +1,18 @@
+sudo: false
 language: c
 compiler:
   - gcc
+addons:
+  apt:
+    sources:
+    - debian-sid
+addons:
+  apt:
+    packages:
+    - gcc-arm-linux-gnueabi
+    - ccache
+
 before_script:
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq colormake ccache
   - git config --global user.email "carino@travis.org"
   - git config --global user.name "Carino build on Travis"
   - git config --global color.ui true
@@ -14,6 +23,6 @@ before_script:
   - chmod a+x bin/repo
   - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
   - ./bin/repo sync
-  - export CARINO_VEHICLE=obstination_pc
-script: V=1 ./tools/build.sh
+  - export variant=obstination
+script: V=1 ./tools/build.sh -j5
 
