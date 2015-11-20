@@ -6,12 +6,9 @@ addons:
   apt:
     sources:
     - debian-sid
-addons:
-  apt:
     packages:
     - gcc-arm-linux-gnueabi
     - ccache
-
 before_script:
   - git config --global user.email "carino@travis.org"
   - git config --global user.name "Carino build on Travis"
