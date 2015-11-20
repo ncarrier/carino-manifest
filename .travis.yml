@@ -2,13 +2,13 @@ sudo: false
 language: c
 compiler:
   - gcc
-addons:
-  apt:
-    sources:
-    - debian-sid
-    packages:
-    - gcc-arm-linux-gnueabi
-    - ccache
+#addons:
+#  apt:
+#    sources:
+#    - debian-sid
+#    packages:
+#    - gcc-arm-linux-gnueabi
+#    - ccache
 before_script:
   - git config --global user.email "carino@travis.org"
   - git config --global user.name "Carino build on Travis"
@@ -21,5 +21,5 @@ before_script:
   - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
   - ./bin/repo sync
   - export variant=obstination
-script: V=1 ./tools/build.sh -j5
+script: variant=obstination_pc ./tools/build.sh -j5 V=1
 
