@@ -33,7 +33,7 @@
   <project name="carino-packages-adbd" path="packages/adbd_main" />
   <project name="carino-packages-archives" path="packages/archives" />
   <project name="carino-packages-linux"
-    revision="carino-obstination-branch"
+    revision="pcduino-functional-4"
     path="packages/linux" clone-depth="1"/>
   <project name="carino-packages-u-boot"
     revision="master"
