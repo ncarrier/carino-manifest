@@ -21,5 +21,5 @@ before_script:
   - ./bin/repo init -u https://github.com/ncarrier/carino-manifest
   - ./bin/repo sync
   - export variant=obstination
-script: variant=obstination_pc ./tools/build.sh -j5 V=1
+script: variant=obstination_pc ./tools/build.sh V=1
 
