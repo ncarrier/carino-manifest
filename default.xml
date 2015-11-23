@@ -37,7 +37,7 @@
     path="packages/linux" clone-depth="1"/>
   <project name="carino-packages-u-boot"
     revision="master"
-    path="packages/u-boot" />
+    path="packages/u-boot" clone-depth="1"/>
   <project name="carino-packages-websockify" path="packages/websockify" />
   <project name="carino-packages-yavta" path="packages/yavta" />
 
