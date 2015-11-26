@@ -11,7 +11,6 @@
   <!-- carino build system -->
   <project name="alchemy" path="alchemy"/>
   <project name="carino-build_scripts" path="build_scripts" />
-  <project name="carino-config" path="config" />
   <project name="carino-products" path="products/carino" />
   <project name="carino-tools" path="tools">
     <copyfile src="autoconnect.sh" dest="autoconnect.sh" />
